@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+<button id="my-button" onclick="alert('Clicked!!')">
+  Click Me!
+</button>
+</style>
+</head>
+<body>
+
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
+<script>
+   const sayHello = function() {
+  alert("Hello");
+}
+setTimeout(sayHello, 2000);
+const sayHello2= function() {
+  alert("Hello2");
+}
+const timer = setInterval(sayHello2, 4000);
+clearInterval(timer);
+/*<p id="this-element-is-unique"></p>
+document.getElementById('this-element-is-unique');
+document.getElementsByTagName('p');*/
+
+/*<p id="paragragh-one" class="blue"></p>
+document.getElementsByClassName('blue');
+alert("class");*/
+
+
+</script>
+</body>
+</html>
